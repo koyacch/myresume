@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+WEB上のパーソナルな履歴書。試験的開発。Railsアプリケーション。
 
-Things you may want to cover:
+* Rails version
 
-* Ruby version
+5.1.2。開発手法はrailstutorialをベースに行う。
 
-* System dependencies
+* 実装項目概要
 
-* Configuration
+ * 個人ブログのようなトップページ 
+ * 個人サムネイル、任意のイメージビジュアル。
+ * 簡易履歴書、詳細履歴書（PDFにダウンロードできる）
+ * 簡易ブログ（画像、動画、そのほかファイル添付可能）、コメント可能。
+ * SNS情報。共有機能も。
+ * メニューにQRを表示。簡単にアドレスを送れる様に。
+ * FB認証などを使い、初期設定をなるべく楽に。
 
-* Database creation
+* 開発の流れ
 
-* Database initialization
+大まかなもの。RailsTutorialの流れで。
+ある程度の区切りでHerokuに公開していく。
 
-* How to run the test suite
+ 1. 仮のビューを静的に作成。
+ 2. ルーティングをまとめる。
+ 3. ユーザーのモデル作成。
+ 4. 認証とログイン機能。
+ 5. プロフィール編集と削除機能。
+ 6. ブログ機能追加。
+ 7. 履歴書機能追加。
+ 8. そのほか機能
+ 9. SCSS、Bootstrap、など、デザイン調整。
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
