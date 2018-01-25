@@ -1,2 +1,73 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+<%= render 'layouts/header' %>
+<main>
+  <seciton id="prof">
+    <figure><img src="#" alt="Thumb"></figure>
+    <h1>John Doe</h1>
+    <p>San Fransico. CA</p>
+    <h2>Hi! Myname is John, i'm a creative geek from San Fransico, CA. Contact me at john@mail.com.</h2>
+    <dl>
+      <dt>qualification</dt>
+      <dd>14</dd>
+      <dt>experience projects</dt>
+      <dd>140</dd>
+      <dt>files</dt>
+      <dd>240</dd>
+    </dl>
+    <a href="#">MORE PROFILE</a>
+  </seciton>
+  <section id="feed">
+    <h1>My Feed</h1>
+    <section>
+      <figure><img src="#" alt="your-feed-img"></figure>
+      <dl>
+        <dt>LIKE</dt>
+        <dd>609</dd>
+        <dt>COMMENT</dt>
+        <dd>120</dd>
+      </dl>
+      <h2>Excepeteur sint occaecat.</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+    </section>
+    <a href="#">MORE FEED</a>
+  </section>
+    <section>
+      <figure><img src="#" alt="your-feed-img"></figure>
+      <dl>
+        <dt>LIKE</dt>
+        <dd>609</dd>
+        <dt>COMMENT</dt>
+        <dd>120</dd>
+      </dl>
+      <h2>Excepeteur sint occaecat.</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+    </section>
+    <a href="#">MORE FEED</a>
+  </section>
+  <seciton id="carrier">
+    <h2>Carrier</h2>
+    <section>
+      <p>
+        Excepteur sint occaecat cupidatat non proident, sunt.
+      </p>
+      <span>1 h ago</span>
+      <figure><img src="#" alt="your-carrier-thumb"></figure>
+    </section>
+    <section>
+      <p>
+        Excepteur sint occaecat cupidatat non proident, sunt.
+      </p>
+      <span>1 h ago</span>
+      <figure><img src="#" alt="your-carrier-thumb"></figure>
+    </section>
+    <section>
+      <p>
+        Excepteur sint occaecat cupidatat non proident, sunt.
+      </p>
+      <span>1 h ago</span>
+      <figure><img src="#" alt="your-carrier-thumb"></figure>
+    </section>
+    <a href="#">MORE CARRIER</a>
+  </seciton>
+</main>
+<%= render 'layouts/footer' %>
