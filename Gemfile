@@ -6,8 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails',                   '5.1.2'
-gem 'bootstrap',               '4.0.0'
-gem 'jquery-rails',             '4.3.1'
+gem 'bootstrap',               '~> 4.0.0.alpha6'
+gem 'jquery-rails',            '4.3.1'
 gem 'bcrypt',                  '3.1.11'
 gem 'faker',                   '1.7.3'
 gem 'carrierwave',             '1.1.0'
@@ -19,7 +19,6 @@ gem 'puma',                    '3.9.1'
 gem 'sass-rails',              '5.0.6'
 gem 'uglifier',                '3.2.0'
 gem 'coffee-rails',            '4.2.2'
-gem 'jquery-rails',            '4.3.1'
 gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.7.0'
 

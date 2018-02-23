@@ -11,5 +11,13 @@
  * It is generally better to create a new file per style scope.
  *
  */
-@import "bootstrap";
+@import 'bootstrap-custom';
 
+.header-wrap{
+  .header{
+    margin-top: 10px;
+    h1{
+      margin: 0;
+    }
+  }
+}
