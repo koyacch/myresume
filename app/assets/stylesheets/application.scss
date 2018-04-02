@@ -21,3 +21,17 @@
     }
   }
 }
+
+#prof{
+  .jumbotron{
+    background: none;
+    position: relative;
+    figure{
+      position: absolute;
+      display: block;
+      width: 200px;
+      left: 20px;
+      bottom: 30px;
+    }
+ }
+}

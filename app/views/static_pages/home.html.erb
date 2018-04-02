@@ -1,21 +1,28 @@
 <% provide(:title, "Home") %>
 <%= render 'layouts/header' %>
 <main>
-  <seciton id="prof">
-    <figure><img src="#" alt="Thumb"></figure>
-    <h1>John Doe</h1>
-    <p>San Fransico. CA</p>
-    <h2>Hi! Myname is John, i'm a creative geek from San Fransico, CA. Contact me at john@mail.com.</h2>
-    <dl>
-      <dt>qualification</dt>
-      <dd>14</dd>
-      <dt>experience projects</dt>
-      <dd>140</dd>
-      <dt>files</dt>
-      <dd>240</dd>
-    </dl>
-    <a class="btn btn-primary" href="#">MORE PROFILE</a>
-  </seciton>
+  <section id="prof">
+    <div class="container-fluid">
+      <div class="jumbotron jumbotron-fluid">
+        <%= image_tag('dammy-hero.jpg', class: 'img-fluid') %>
+        <figure>
+          <%= image_tag('dammy-header-thumb.png', class: 'img-fluid img-thumbnail', alt: "John Portrait") %>
+        </figure>
+      </div>
+      <h1>John Doe</h1>
+      <p>San Fransico. CA</p>
+      <h2>Hi! Myname is John, i'm a creative geek from San Fransico, CA. Contact me at john@mail.com.</h2>
+      <dl>
+        <dt>qualification</dt>
+        <dd>14</dd>
+        <dt>experience projects</dt>
+        <dd>140</dd>
+        <dt>files</dt>
+        <dd>240</dd>
+      </dl>
+    <a href="#">MORE PROFILE</a>
+    </div>
+  </section>
   <section id="feed">
     <h1>My Feed</h1>
     <section>
